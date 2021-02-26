@@ -15,7 +15,7 @@ data_entry = [1918,1869,1821,1852,1981,1987,1989,1597,1634,1537,1991,1603,1543,1
 
 result = []
 
-for x in data_entry[::-1]:
+for x in data_entry:
     for y in data_entry:
         for i in data_entry:
         
