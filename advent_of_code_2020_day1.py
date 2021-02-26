@@ -12,12 +12,13 @@ for x in dane[::-1]:
     for y in dane:
         
         if x != y:
-            wynik = x + y
+            numbers_added = x + y
             
-            if wynik == 2020:
-#                hit = x * y
-#                result = result + [hit]
+            if numbers_added == 2020:
+                numbers_multi = x * y
                 result.append(x)
                 result.append(y)
                 
 print(set(result))
+
+print('Answer: {}'.format(numbers_multi))
