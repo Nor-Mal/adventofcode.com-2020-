@@ -23,6 +23,6 @@ for x in data_entry:
             result.append(x)
             
                 
-print(set(result))
+print('Two found entries: {}'.format(set(result)))
 
 print('Answer: {}'.format(numbers_multi))
