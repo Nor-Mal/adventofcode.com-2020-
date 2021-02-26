@@ -1,3 +1,4 @@
+
 '''
 --- Day 1: Report Repair ---
 '''
@@ -15,13 +16,12 @@ result = []
 for x in data_entry:
     for y in data_entry:
         
-        if x != y:
-            numbers_added = x + y
+        numbers_added = x + y
             
-            if numbers_added == 2020:
-                numbers_multi = x * y
-                result.append(x)
-                result.append(y)
+        if numbers_added == 2020:
+            numbers_multi = x * y
+            result.append(x)
+            
                 
 print(set(result))
 
