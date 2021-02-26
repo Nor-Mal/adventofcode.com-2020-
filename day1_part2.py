@@ -1,8 +1,6 @@
 '''
 --- Day 1: Report Repair ---
-
 --- PART TWO ---
-
 '''
 
 data_entry = [1918,1869,1821,1852,1981,1987,1989,1597,1634,1537,1991,1603,1543,1949,1879,1800,1761,2010,1810,1458,1755,1938,1500,2005,818,1493,1618,1923,1283,1952,
@@ -18,15 +16,13 @@ result = []
 for x in data_entry:
     for y in data_entry:
         for i in data_entry:
-        
-            if x != y and x != i and y != i:
-                numbers_added = x + y + i
+
+            numbers_added = x + y + i
                 
-                if numbers_added == 2020:
-                    numbers_multi = x * y * i
-                    result.append(x)
-                    result.append(y)
-                    
-print(set(result))
+            if numbers_added == 2020:
+                numbers_multi = x * y * i
+                result.append(x)
+
+print('Three found entries: {}'.format(set(result)))
 
 print('Answer: {}'.format(numbers_multi))
