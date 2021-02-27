@@ -2,7 +2,7 @@ import os, re
 
 file_dir = os.getcwd()
 
-with open("{}\data_entry.txt".format(file_dir)) as fp:
+with open("{}\entry_for_day2.txt".format(file_dir)) as fp:
     mylist = fp.read().splitlines()
 
     total_passwords = 0
