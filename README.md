@@ -10,3 +10,5 @@ My solutions to the puzzles from https://adventofcode.com/2020/
 - day2_part1.py
 - day2_part2.py
 - entry_for_day2.txt
+
+--- Day 3: Toboggan Trajectory ---
