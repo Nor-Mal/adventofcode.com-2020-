@@ -1,7 +1,7 @@
 # Advent of Code 2020 - day3 solution to part1 and part2
 # Works but it is very slow solution compared to other that you can find on the
 # web which use the list comprehensions. That was me without looking
-# for any help on the web - I am not impressed with myself ;-)
+# for any help on the web ;-)
 
 with open('map_entry_day3.txt') as fp:
     line = fp.read().splitlines()
