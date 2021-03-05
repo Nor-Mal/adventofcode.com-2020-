@@ -13,3 +13,5 @@ My solutions to the puzzles from https://adventofcode.com/2020/
 - entry_for_day2.txt
 
 --- Day 3: Toboggan Trajectory ---
+- day3.py ---> solution to part1 and part2 in one file
+- day3_data_entry.txt
