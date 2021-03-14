@@ -18,3 +18,5 @@ My solutions to the puzzles from https://adventofcode.com/2020/
 
 --- Day 4: Passport Processing ---
 - day4_part1.py
+- day4.part2.py
+- pass_entry.txt
