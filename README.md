@@ -20,3 +20,7 @@ My Python solutions to the puzzles from https://adventofcode.com/2020/
 - day4_part1.py
 - day4.part2.py
 - pass_entry.txt
+
+--- Day 5: Binary Boarding ---
+- day5_part1.py
+- data.txt
