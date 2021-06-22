@@ -11,8 +11,6 @@ R - right side, keep upper half
 
 '''
 # - PART 1 -
-import re
-
 with open('./data.txt', 'r',) as fp:
 	data = list(fp.read().splitlines())
 	
