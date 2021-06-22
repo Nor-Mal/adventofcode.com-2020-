@@ -22,5 +22,5 @@ My Python solutions to the puzzles from https://adventofcode.com/2020/
 - pass_entry.txt
 
 --- Day 5: Binary Boarding ---
-- day5_part1.py
+- day5.py  -> Part 1 & Part 2
 - data.txt
