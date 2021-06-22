@@ -1,7 +1,6 @@
 # Advent of Code 2020 - day3 solution to part1 and part2
-# Works but it is very slow solution compared to other that you can find on the
-# web which use the list comprehensions. That was me without looking
-# for any help on the web ;-)
+# Works but it is a slow solution compared to other that you can find out there. 
+# That was me without looking for any help on the web ;-)
 
 with open('map_entry_day3.txt') as fp:
     line = fp.read().splitlines()
@@ -67,7 +66,7 @@ with open('map_entry_day3.txt') as fp:
 
 
     new_list = list_multi(ori, 1)
-    print('Please wait... :-(')
+    print('Please wait...')
     s_one = check_slope(new_list, 1, 1)
     s_two = check_slope(new_list, 3, 1)
     s_three = check_slope(new_list, 5, 1)
