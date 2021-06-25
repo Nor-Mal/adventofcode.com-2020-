@@ -24,3 +24,7 @@ My Python solutions to the puzzles from https://adventofcode.com/2020/
 --- Day 5: Binary Boarding ---
 - day5.py  -> Part 1 & Part 2
 - data.txt
+
+--- Day 6: Custom Customs ---
+- day6_part1.py
+- data.py
