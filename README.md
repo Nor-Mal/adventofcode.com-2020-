@@ -27,4 +27,5 @@ My Python solutions to the puzzles from https://adventofcode.com/2020/
 
 --- Day 6: Custom Customs ---
 - day6_part1.py
-- data.py
+- day6_part2.py
+- data.txt
